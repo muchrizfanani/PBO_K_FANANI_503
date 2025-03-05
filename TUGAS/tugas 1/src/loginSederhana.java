@@ -33,7 +33,7 @@ public class loginSederhana{
                     System.out.print("Masukkan NIM: ");
                     String NIM = input.nextLine();
 
-                    if(namaSiswa.equals("Muchamad Rizky Fanani") && NIM.equals("202410370110503")) {
+                    if(namaSiswa.equalsIgnoreCase("Muchamad Rizky Fanani") && NIM.equals("202410370110503")) {
                         System.out.println("Anda berhasil login sebagai Mahasiswa.");
                         login = true;
                     } else {
