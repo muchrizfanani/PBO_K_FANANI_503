@@ -1,11 +1,20 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Hewan hewan1 = new Hewan("Kucing","mamalia", "miauw", 4);
-        Hewan hewan2 = new Hewan("Rifky", "amfibi", "ubekkk" ,10);
+        Scanner ip = new Scanner(System.in);
+        Hewan hewan1 = new Hewan();
+        Hewan hewan2 = new Hewan();
 
-        hewan1.tampilkanInfo();
-        hewan2.tampilkanInfo();
+        hewan1.inputDataHewan(); //memanggil method di class Hewan untuk meminta input dari user dari objek hewan1
+        System.out.println();
+        hewan2.inputDataHewan(); //memanggil method di class Hewan untuk meminta input dari user dari objek hewan2
+
+        System.out.println("======== Informasi Hewan =======");
+        hewan1.tampilkanInfo(); // memanggil method di class hewan untuk menampilkan data dari hewan 1
+        hewan2.tampilkanInfo();// memanggil method di class hewan untuk menampilkan data dari hewan 2
+
+        ip.close();
+
         }
     }
