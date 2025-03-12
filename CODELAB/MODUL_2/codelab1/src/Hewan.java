@@ -20,8 +20,7 @@ public class Hewan {
     void tampilkanInfo(){
         System.out.println("Nama = " + nama );
         System.out.println("Jenis = " + jenis );
-        System.out.println("Suara = " + suara );
-        System.out.println();
+        System.out.println("Suara = " + suara + "\n");
     }
 }
 

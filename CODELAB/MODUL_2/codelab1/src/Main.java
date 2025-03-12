@@ -11,8 +11,8 @@ public class Main {
         hewan2.inputDataHewan(ip); //memanggil method di class Hewan untuk meminta input dari user dari objek hewan2
 
         System.out.println("\n======== Informasi Hewan =======");
-        hewan1.tampilkanInfo(); // memanggil method di class hewan untuk menampilkan data dari hewan 1
-        hewan2.tampilkanInfo();// memanggil method di class hewan untuk menampilkan data dari hewan 2
+        hewan1.tampilkanInfo(); // memanggil method di class hewan untuk menampilkan data dari hewan1
+        hewan2.tampilkanInfo();// memanggil method di class hewan untuk menampilkan data dari hewan2
         ip.close();
 
         }
