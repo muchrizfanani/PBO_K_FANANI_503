@@ -6,7 +6,7 @@ public class Hewan {
     String nama;
     String jenis;
     String suara;
-    Scanner input = new Scanner(System.in); //menggunakan scanner sebagai atribut di class hewan
+
 
     //method untuk meminta user untuk menginputkan data hewan menggunakan scanner
     void inputDataHewan(Scanner input){
