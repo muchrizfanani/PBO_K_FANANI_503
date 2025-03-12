@@ -6,16 +6,16 @@ public class Hewan {
     String nama;
     String jenis;
     String suara;
-    Scanner ip = new Scanner(System.in); //menggunakan scanner sebagai atribut di class hewan
+    Scanner input = new Scanner(System.in); //menggunakan scanner sebagai atribut di class hewan
 
     //method untuk meminta user untuk menginputkan data hewan menggunakan scanner
-    void inputDataHewan(Scanner ip){
+    void inputDataHewan(Scanner input){
         System.out.print("Masukkan Nama : ");
-        this.nama = ip.nextLine();
+        this.nama = input.nextLine();
         System.out.print("Masukkan Jenis : ");
-        this.jenis = ip.nextLine();
+        this.jenis = input.nextLine();
         System.out.print("Masukkan Suara : ");
-        this.suara = ip.nextLine();
+        this.suara = input.nextLine();
     }
     void tampilkanInfo(){
         System.out.println("Nama = " + nama );
