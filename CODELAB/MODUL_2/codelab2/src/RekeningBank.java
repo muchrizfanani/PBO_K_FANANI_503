@@ -2,6 +2,7 @@ public class RekeningBank {
  String nomorR,namaP;
  double saldo;
 
+
  void tampilkanInfo(){
      System.out.println("===============================");
      System.out.println("nomor rekening : " + nomorR);

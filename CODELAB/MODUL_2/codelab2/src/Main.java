@@ -13,6 +13,7 @@ public class Main {
         rek2.namaP = "Wahyu";
         rek2.saldo = 500000;
 
+
         boolean ulang = true;
 
         while (ulang){
