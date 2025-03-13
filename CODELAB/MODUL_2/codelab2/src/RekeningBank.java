@@ -11,6 +11,7 @@ public class RekeningBank {
      System.out.println("===============================\n");
  }
 
+
  void setorUang(double jumlah){
      if (jumlah >0 ){
          saldo += jumlah;
@@ -27,5 +28,4 @@ public class RekeningBank {
 
      }
  }
-
 }
