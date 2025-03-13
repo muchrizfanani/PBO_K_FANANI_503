@@ -18,15 +18,13 @@ public class RekeningBank {
  }
 
  void tarikTunai(double jumlah){
-     if(saldo > jumlah || saldo == jumlah){
+     if(saldo >= jumlah){
          saldo -= jumlah;
-         System.out.println(namaP + " " + "menarik Rp." + jumlah + " " + "saldo saat ini Rp." + saldo );
+         System.out.println(namaP + " " + "menarik Rp." + jumlah + " " + " (berhasil !) saldo saat ini Rp." + saldo );
      }else{
          System.out.println(namaP + " " + "menarik Rp." + jumlah + " " + "(gagal ! saldo anda tidak cukup)" + " " + "saldo saat ini Rp." + saldo );
 
      }
  }
-
-
 
 }
