@@ -13,7 +13,7 @@ public class Main {
         rek2.namaP = "Wahyu";
         rek2.saldo = 500000;
 
-        Boolean ulang = true;
+        boolean ulang = true;
 
         while (ulang){
             System.out.println("============= Menu Transaksi ===========");
@@ -27,7 +27,7 @@ public class Main {
                 System.out.print("Masukkan Nomor Rekening (1) " + rek1.namaP + " dan (2) " + rek2.namaP + " : ");
                 int choice = input.nextInt();
                 System.out.print("Masukkan Nominal Setor : ");
-                Double Str = input.nextDouble();
+                double Str = input.nextDouble();
                 if(choice == 1){
                     rek1.setorUang(Str);
                 }else if (choice == 2){
@@ -39,7 +39,7 @@ public class Main {
                 System.out.print("Masukkan Nomor Rekening (1) " + rek1.namaP + " dan (2) " + rek2.namaP + " : ");
                 int choice2 = input.nextInt();
                 System.out.print("Masukkan Nominal Uang : ");
-                Double Wd = input.nextDouble();
+                double Wd = input.nextDouble();
 
                 if(choice2 == 1){
                     rek1.tarikTunai(Wd);
